@@ -36,3 +36,22 @@ E:\gitHub\QuanLyTaiKhoanDangNhap\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
 E:\gitHub\QuanLyTaiKhoanDangNhap\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
 E:\gitHub\QuanLyTaiKhoanDangNhap\GUI\obj\Debug\GUI.exe
 E:\gitHub\QuanLyTaiKhoanDangNhap\GUI\obj\Debug\GUI.pdb
+C:\Users\TV Straight\Desktop\QuanLyTaiKhoanDangNhap\GUI\bin\Debug\GUI.exe.config
+C:\Users\TV Straight\Desktop\QuanLyTaiKhoanDangNhap\GUI\bin\Debug\GUI.exe
+C:\Users\TV Straight\Desktop\QuanLyTaiKhoanDangNhap\GUI\bin\Debug\GUI.pdb
+C:\Users\TV Straight\Desktop\QuanLyTaiKhoanDangNhap\GUI\bin\Debug\BLL.dll
+C:\Users\TV Straight\Desktop\QuanLyTaiKhoanDangNhap\GUI\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\TV Straight\Desktop\QuanLyTaiKhoanDangNhap\GUI\bin\Debug\DTO.dll
+C:\Users\TV Straight\Desktop\QuanLyTaiKhoanDangNhap\GUI\bin\Debug\DAL.dll
+C:\Users\TV Straight\Desktop\QuanLyTaiKhoanDangNhap\GUI\bin\Debug\BLL.pdb
+C:\Users\TV Straight\Desktop\QuanLyTaiKhoanDangNhap\GUI\bin\Debug\DTO.pdb
+C:\Users\TV Straight\Desktop\QuanLyTaiKhoanDangNhap\GUI\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\TV Straight\Desktop\QuanLyTaiKhoanDangNhap\GUI\bin\Debug\DAL.pdb
+C:\Users\TV Straight\Desktop\QuanLyTaiKhoanDangNhap\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+C:\Users\TV Straight\Desktop\QuanLyTaiKhoanDangNhap\GUI\obj\Debug\GUI.frmDangNhap.resources
+C:\Users\TV Straight\Desktop\QuanLyTaiKhoanDangNhap\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\TV Straight\Desktop\QuanLyTaiKhoanDangNhap\GUI\obj\Debug\GUI.frmThongTin.resources
+C:\Users\TV Straight\Desktop\QuanLyTaiKhoanDangNhap\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\TV Straight\Desktop\QuanLyTaiKhoanDangNhap\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\TV Straight\Desktop\QuanLyTaiKhoanDangNhap\GUI\obj\Debug\GUI.exe
+C:\Users\TV Straight\Desktop\QuanLyTaiKhoanDangNhap\GUI\obj\Debug\GUI.pdb

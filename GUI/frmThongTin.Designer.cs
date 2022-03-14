@@ -36,6 +36,7 @@ namespace GUI
             this.panelEx2 = new DevComponents.DotNetBar.PanelEx();
             this.expandableSplitter2 = new DevComponents.DotNetBar.ExpandableSplitter();
             this.groupPanel2 = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.chkHienMatKhau = new System.Windows.Forms.CheckBox();
             this.buttonX2 = new DevComponents.DotNetBar.ButtonX();
             this.btnLuuThayDoi = new DevComponents.DotNetBar.ButtonX();
             this.txtNhapLaiMatKhau = new DevComponents.DotNetBar.Controls.TextBoxX();
@@ -49,7 +50,6 @@ namespace GUI
             this.groupPanel1 = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
-            this.chkHienMatKhau = new System.Windows.Forms.CheckBox();
             this.panelEx1.SuspendLayout();
             this.panelEx2.SuspendLayout();
             this.groupPanel2.SuspendLayout();
@@ -233,6 +233,18 @@ namespace GUI
             this.groupPanel2.TabIndex = 1;
             this.groupPanel2.Text = "Nhập Thông Tin Tài Khoản";
             // 
+            // chkHienMatKhau
+            // 
+            this.chkHienMatKhau.AutoSize = true;
+            this.chkHienMatKhau.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkHienMatKhau.Location = new System.Drawing.Point(140, 168);
+            this.chkHienMatKhau.Name = "chkHienMatKhau";
+            this.chkHienMatKhau.Size = new System.Drawing.Size(106, 19);
+            this.chkHienMatKhau.TabIndex = 10;
+            this.chkHienMatKhau.Text = "Hiện mật khẩu";
+            this.chkHienMatKhau.UseVisualStyleBackColor = true;
+            this.chkHienMatKhau.CheckedChanged += new System.EventHandler(this.chkHienMatKhau_CheckedChanged);
+            // 
             // buttonX2
             // 
             this.buttonX2.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
@@ -411,20 +423,9 @@ namespace GUI
             // 
             this.errorProvider1.ContainerControl = this;
             // 
-            // chkHienMatKhau
-            // 
-            this.chkHienMatKhau.AutoSize = true;
-            this.chkHienMatKhau.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkHienMatKhau.Location = new System.Drawing.Point(140, 168);
-            this.chkHienMatKhau.Name = "chkHienMatKhau";
-            this.chkHienMatKhau.Size = new System.Drawing.Size(106, 19);
-            this.chkHienMatKhau.TabIndex = 10;
-            this.chkHienMatKhau.Text = "Hiện mật khẩu";
-            this.chkHienMatKhau.UseVisualStyleBackColor = true;
-            this.chkHienMatKhau.CheckedChanged += new System.EventHandler(this.chkHienMatKhau_CheckedChanged);
-            // 
             // frmThongTin
             // 
+            this.AcceptButton = this.buttonX2;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(625, 316);
