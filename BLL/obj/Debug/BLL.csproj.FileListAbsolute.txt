@@ -1,0 +1,11 @@
+E:\C_Sharp\Code_VisualStudio\BT_TongHop\Bai82_QuanLyTaiKhoanDangNhap\BLL\bin\Debug\BLL.dll
+E:\C_Sharp\Code_VisualStudio\BT_TongHop\Bai82_QuanLyTaiKhoanDangNhap\BLL\bin\Debug\BLL.pdb
+E:\C_Sharp\Code_VisualStudio\BT_TongHop\Bai82_QuanLyTaiKhoanDangNhap\BLL\bin\Debug\DAL.dll
+E:\C_Sharp\Code_VisualStudio\BT_TongHop\Bai82_QuanLyTaiKhoanDangNhap\BLL\bin\Debug\DTO.dll
+E:\C_Sharp\Code_VisualStudio\BT_TongHop\Bai82_QuanLyTaiKhoanDangNhap\BLL\bin\Debug\DAL.pdb
+E:\C_Sharp\Code_VisualStudio\BT_TongHop\Bai82_QuanLyTaiKhoanDangNhap\BLL\bin\Debug\DTO.pdb
+E:\C_Sharp\Code_VisualStudio\BT_TongHop\Bai82_QuanLyTaiKhoanDangNhap\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+E:\C_Sharp\Code_VisualStudio\BT_TongHop\Bai82_QuanLyTaiKhoanDangNhap\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\C_Sharp\Code_VisualStudio\BT_TongHop\Bai82_QuanLyTaiKhoanDangNhap\BLL\obj\Debug\BLL.dll
+E:\C_Sharp\Code_VisualStudio\BT_TongHop\Bai82_QuanLyTaiKhoanDangNhap\BLL\obj\Debug\BLL.pdb
+E:\C_Sharp\Code_VisualStudio\BT_TongHop\Bai82_QuanLyTaiKhoanDangNhap\BLL\obj\Debug\BLL.csproj.CopyComplete

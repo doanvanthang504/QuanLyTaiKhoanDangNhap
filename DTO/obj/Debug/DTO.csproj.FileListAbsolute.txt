@@ -1,0 +1,6 @@
+E:\C_Sharp\Code_VisualStudio\BT_TongHop\Bai82_QuanLyTaiKhoanDangNhap\DTO\bin\Debug\DTO.dll
+E:\C_Sharp\Code_VisualStudio\BT_TongHop\Bai82_QuanLyTaiKhoanDangNhap\DTO\bin\Debug\DTO.pdb
+E:\C_Sharp\Code_VisualStudio\BT_TongHop\Bai82_QuanLyTaiKhoanDangNhap\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+E:\C_Sharp\Code_VisualStudio\BT_TongHop\Bai82_QuanLyTaiKhoanDangNhap\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+E:\C_Sharp\Code_VisualStudio\BT_TongHop\Bai82_QuanLyTaiKhoanDangNhap\DTO\obj\Debug\DTO.dll
+E:\C_Sharp\Code_VisualStudio\BT_TongHop\Bai82_QuanLyTaiKhoanDangNhap\DTO\obj\Debug\DTO.pdb
