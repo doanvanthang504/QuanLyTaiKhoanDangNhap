@@ -49,6 +49,7 @@ namespace GUI
             this.groupPanel1 = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.chkHienMatKhau = new System.Windows.Forms.CheckBox();
             this.panelEx1.SuspendLayout();
             this.panelEx2.SuspendLayout();
             this.groupPanel2.SuspendLayout();
@@ -185,6 +186,7 @@ namespace GUI
             // 
             this.groupPanel2.CanvasColor = System.Drawing.SystemColors.Control;
             this.groupPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.groupPanel2.Controls.Add(this.chkHienMatKhau);
             this.groupPanel2.Controls.Add(this.buttonX2);
             this.groupPanel2.Controls.Add(this.btnLuuThayDoi);
             this.groupPanel2.Controls.Add(this.txtNhapLaiMatKhau);
@@ -236,7 +238,7 @@ namespace GUI
             this.buttonX2.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.buttonX2.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.buttonX2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonX2.Location = new System.Drawing.Point(289, 187);
+            this.buttonX2.Location = new System.Drawing.Point(289, 194);
             this.buttonX2.Name = "buttonX2";
             this.buttonX2.Size = new System.Drawing.Size(87, 26);
             this.buttonX2.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -249,7 +251,7 @@ namespace GUI
             this.btnLuuThayDoi.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnLuuThayDoi.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnLuuThayDoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLuuThayDoi.Location = new System.Drawing.Point(140, 187);
+            this.btnLuuThayDoi.Location = new System.Drawing.Point(140, 194);
             this.btnLuuThayDoi.Name = "btnLuuThayDoi";
             this.btnLuuThayDoi.Size = new System.Drawing.Size(87, 26);
             this.btnLuuThayDoi.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -409,6 +411,18 @@ namespace GUI
             // 
             this.errorProvider1.ContainerControl = this;
             // 
+            // chkHienMatKhau
+            // 
+            this.chkHienMatKhau.AutoSize = true;
+            this.chkHienMatKhau.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkHienMatKhau.Location = new System.Drawing.Point(140, 168);
+            this.chkHienMatKhau.Name = "chkHienMatKhau";
+            this.chkHienMatKhau.Size = new System.Drawing.Size(106, 19);
+            this.chkHienMatKhau.TabIndex = 10;
+            this.chkHienMatKhau.Text = "Hiện mật khẩu";
+            this.chkHienMatKhau.UseVisualStyleBackColor = true;
+            this.chkHienMatKhau.CheckedChanged += new System.EventHandler(this.chkHienMatKhau_CheckedChanged);
+            // 
             // frmThongTin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -453,5 +467,6 @@ namespace GUI
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ErrorProvider errorProvider1;
         public DevComponents.DotNetBar.Controls.TextBoxX txtTaiKhoan1;
+        private System.Windows.Forms.CheckBox chkHienMatKhau;
     }
 }

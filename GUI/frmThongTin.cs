@@ -78,11 +78,6 @@ namespace GUI
                             break;
                         }
                     }
-                    else
-                    {
-                        errorProvider1.SetError(txtTaiKhoan1, "Tài Khoản Chưa chính xác");
-                        break;
-                    }
                 }
 
             }
@@ -96,6 +91,22 @@ namespace GUI
             if (ret == DialogResult.Yes)
             {
                 this.Close();
+            }
+        }
+
+        private void chkHienMatKhau_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkHienMatKhau.Checked == true)
+            {
+                txtMatKhauMoi.PasswordChar = (char)0;
+                txtNhapLaiMatKhau.PasswordChar = (char)0;
+                txtMatKhauCu.PasswordChar = (char)0;
+            }
+            else
+            {
+                txtMatKhauMoi.PasswordChar = '*';
+                txtNhapLaiMatKhau.PasswordChar = '*';
+                txtMatKhauCu.PasswordChar = '*';
             }
         }
     }

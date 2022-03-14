@@ -17,6 +17,7 @@ namespace GUI
         public frmDangNhap()
         {
             InitializeComponent();
+            
             txtMatKhau.PasswordChar = '*';
             txtMatKhau.MaxLength = 10;
 
@@ -39,6 +40,11 @@ namespace GUI
                         frmthongtin.txtTaiKhoan1.Text = txtTaiKhoan.Text;
 
                         frmthongtin.ShowDialog();
+                        if (checkBoxX1.Checked == false)
+                        {
+                            txtTaiKhoan.Text = "";
+                            txtMatKhau.Text = "";
+                        }      
                         break;
 
                     }
@@ -48,14 +54,6 @@ namespace GUI
 
         }
 
-        
-        private void checkBoxX1_CheckedChanged(object sender, EventArgs e)
-        {
-            if (checkBoxX1.Checked == true)
-            {
-                txtTaiKhoan.Text = txtTaiKhoan.Text;
-            }
-        }
 
         private void btnThoat_Click(object sender, EventArgs e)
         {
@@ -99,6 +97,12 @@ namespace GUI
             }
 
 
+        }
+
+        private void frmDangNhap_Load(object sender, EventArgs e)
+        {
+            txtTaiKhoan.Text = "";
+            txtMatKhau.Text = "";
         }
     }
 }

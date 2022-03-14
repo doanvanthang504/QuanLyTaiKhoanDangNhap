@@ -541,7 +541,6 @@ namespace GUI
             this.checkBoxX1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.checkBoxX1.TabIndex = 4;
             this.checkBoxX1.Text = "Lưu Thông Tin Đăng Nhập";
-            this.checkBoxX1.CheckedChanged += new System.EventHandler(this.checkBoxX1_CheckedChanged);
             // 
             // txtMatKhau
             // 
@@ -611,6 +610,7 @@ namespace GUI
             this.Name = "frmDangNhap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản Lý Tài Khoản";
+            this.Load += new System.EventHandler(this.frmDangNhap_Load);
             this.panelEx1.ResumeLayout(false);
             this.panelEx3.ResumeLayout(false);
             this.groupPanel3.ResumeLayout(false);
